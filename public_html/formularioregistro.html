@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Red Lobster</title>
+        
+    </head>
+    <body>
+        <div id="cabecera">Red Lobster
+            <br> Las mejores langostas!
+        </div>
+        <div id="opciones">
+            <ul>
+                  <li>Inicio</a></li>
+                <li>Quienes Somos</li>
+                <li>Menu de platos</li>
+                <li>Registro</li>
+            </ul>
+        </div>
+        
+        <h1> Formulario de Registro </h1>
+        <form>
+            <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre"/>
+            </div>
+            <div>
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono" name="telefono"/>
+            </div>
+            <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"/>
+            </div>
+            <div>
+                     <label for="quenecesita"> Que Necesita?</label>
+                     <select name="quenecesita">
+                         <option value="seleccionar"> Seleccionar </option> 
+                         <option value="algogratis"> Quiero recibir comida gratis </option>
+                         <option value="nogratis"> No me interesa la comida gratis </option>
+                         <option value="todogratis"> Quiero todo tipo de comida gratis</option>
+                         <option value="otros"> Otros</option>
+                 </select>
+                 </div>
+                <div>
+                <label for="detalles"> Detalles del pedido</label>
+                <textarea id="detalles" name="detalles" cols="100" rows="5"> </textarea>
+            </div>
+            <div>
+                <button type="submit" > Enviar </button>
+        </form>
+        
+        
+         <div id="pie">
+            Ubicados en Ave. Duarte #604 Santiago R.D. Tel: 857-845-9684 
+            <img src="imagenes/download.jpg" alt=""/>
+            <img src="imagenes/download.png" alt=""/>
+        </div>
+        </body>
+</html>
